@@ -71,67 +71,76 @@
                 <use href="./images/symbol-defs.svg#icon-close-modal"></use>
               </svg>
             </button>
-            <h2 class="header-modal">
-              Leave your contacts and we will call you back
-            </h2>
-            <form action="" class="modal-form">
-              <ul class="list">
-                <li class="modal-list">
-                  <label class="label-input-modal">
-                    Name
-                    <div class="input-modal">
-                      <input type="text" class="input-form-modal" name="name" />
-                      <svg class="icon-modal-input">
-                        <use href="./images/icons.svg#icon-persona"></use>
-                      </svg>
-                    </div>
-                  </label>
-                </li>
-                <li class="modal-list input-number">
-                  <label class="label-input-modal">
-                    Phone
-                    <div class="input-modal">
-                      <input type="tel" class="input-form-modal" name="tell" />
-                      <svg class="icon-modal-input">
-                        <use href="./images/icons.svg#icon-phone"></use>
-                      </svg>
-                    </div>
-                  </label>
-                </li>
-                <li class="modal-list input-email">
-                  <label class="label-input-modal">
-                    Email
-                    <div class="input-modal">
-                      <input
-                        type="email"
-                        class="input-form-modal"
-                        name="email"
-                      />
-                      <svg class="icon-modal-input">
-                        <use href="./images/icons.svg#icon-mail"></use>
-                      </svg>
-                    </div>
-                  </label>
-                </li>
-                <li class="modal-list input-comment">
-                  <label class="label-input-modal textarea-modal"
-                    >Comment
-                    <textarea
-                      class="textarea-form-modal"
-                      type="text"
-                      placeholder="Text input"
-                      rows="6"
-                      name="comment"
-                    ></textarea>
-                  </label>
-                </li>
-              </ul>
-              <label class="check-label text-privecy-polyce"
-                ><div class="check">
+            <div class="modal-form">
+              <p class="heder-modal">
+                Leave your contacts and we will call you back
+              </p>
+              <form>
+                <ul class="list modal-list">
+                  <li class="first-list-input">
+                    <label for="input-name">
+                      <span class="label-name">Name</span>
+                      <span class="label-input-modal"
+                        ><input
+                          type="text"
+                          class="input-modal hover-input-modal"
+                          id="input-name"
+                        />
+                        <svg class="inc-input">
+                          <use href="./images/icons.svg#icon-persona"></use>
+                        </svg>
+                      </span>
+                    </label>
+                  </li>
+                  <li class="list-input">
+                    <label for="input-phone"
+                      ><span class="label-name">Phone</span>
+                      <span class="label-input-modal"
+                        ><input
+                          type="number"
+                          class="input-modal hover-input-modal"
+                          id="input-phone"
+                        />
+                        <svg class="inc-input">
+                          <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                      </span>
+                    </label>
+                  </li>
+                  <li class="list-input">
+                    <label for="input-mail"
+                      ><span class="label-name">Email</span>
+                      <span class="label-input-modal"
+                        ><input
+                          type="email"
+                          class="input-modal hover-input-modal"
+                          id="input-mail"
+                        />
+                        <svg class="inc-input">
+                          <use href="./images/icons.svg#icon-mail"></use>
+                        </svg>
+                      </span>
+                    </label>
+                  </li>
+                  <li class="list-input textarea-modal">
+                    <label class="textarea-modal" for="input-comment"
+                      ><span class="label-name">Comment</span>
+                      <textarea
+                        class="textarea-form-modal hover-input-modal"
+                        placeholder="Text input"
+                        rows="6"
+                        name="comment"
+                        id="input-comment"
+                      ></textarea>
+                    </label>
+                  </li>
+                </ul>
+                <label for="check" class="label-checkbox">
                   <input
                     class="check-input"
                     type="checkbox"
                     name="check-privecy-policy"
+                    id="check"
                   />
 
                   <svg class="icon-check-svg">
@@ -139,12 +148,15 @@
                   </svg>
 
                   <span class="icon-check"></span>
-                </div>
-                I accept the terms and conditions of the
-                <a href="#">Privacy Policy</a>
-              </label>
-              <button type="submit" class="button-modal">Send</button>
-            </form>
+                  <span class="text-checkbox"
+                    >I accept the terms and conditions of the
+                    <a href="">Privacy Policy</a></span
+                  >
+                </label>
+
+                <button type="submit" class="button-modal">Send</button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
@@ -226,15 +238,15 @@
               <img
                 src="./images/img1.jpg"
                 alt="computer"
-                width="360"
-                height="300"
+                width="360px"
+                height="300px"
               />
             </li>
             <li class="list-works">
               <img
                 src="./images/img2.jpg"
                 alt="mobile app"
-                width="360"
+                width="360px"
                 height="300px"
               />
             </li>
@@ -242,8 +254,8 @@
               <img
                 src="./images/img3.jpg"
                 alt="mobile and notebook"
-                width="360"
-                height="300"
+                width="360px"
+                height="300px"
               />
             </li>
           </ul>
@@ -257,7 +269,7 @@
               <img
                 src="./images/mark.jpg"
                 alt="foto mark guerrero"
-                width="264"
+                width="264px"
                 height="260px"
               />
               <div class="card-text">
@@ -305,7 +317,7 @@
               <img
                 src="./images/tom.jpg"
                 alt="foto tom ford"
-                width="264"
+                width="264px"
                 height="260px"
               />
               <div class="card-text">
@@ -353,7 +365,7 @@
               <img
                 src="./images/camila.jpg"
                 alt="foto camila garcia"
-                width="264"
+                width="264px"
                 height="260px"
               />
               <div class="card-text">
@@ -401,7 +413,7 @@
               <img
                 src="./images/daniel.jpg"
                 alt="foto daniel wilson"
-                width="264"
+                width="264px"
                 height="260px"
               />
               <div class="card-text">
@@ -543,25 +555,21 @@
             </li>
           </ul>
         </div>
-        <div class="form">
-          <form action="">
-            <label for="">
-              <h2 class="footer-social-header">Subscribe</h2>
-              <div class="subscribe">
-                <input
-                  type="email"
-                  class="input-mail"
-                  placeholder="E-mail"
-                  name="email"
-                />
-                <button type="submit" class="button-mail-subscribe">
-                  <span class="text-mail-subscibe">Subscribe</span>
-                  <svg class="icon-button-subscribe">
-                    <use href="./images/icons.svg#icon-subsscribe"></use>
-                  </svg>
-                </button>
-              </div>
-            </label>
+        <div class="subscribe">
+          <p>Subsribe</p>
+          <form class="subsribe-input">
+            <input
+              type="email"
+              class="input-subsribe-text"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="button-submit">
+              Subscribe
+
+              <svg class="inc-button-subsribe">
+                <use href="./images/icons.svg#icon-subsscribe"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
