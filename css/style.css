@@ -219,6 +219,15 @@ img {
   background-color: var(--hover-button-background-color);
 }
 /* MODAL */
+.input-name {
+  display: block;
+}
+.input-phone {
+  display: block;
+}
+.input-mail {
+  display: block;
+}
 .backdrop {
   position: fixed;
   top: 0;
@@ -238,10 +247,11 @@ img {
   transform: scale(1);
 
   width: 408px;
-  height: 576px;
+  height: 584px;
   background: #fcfcfc;
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 .is-hidden {
   opacity: 0;
@@ -285,9 +295,7 @@ img {
 }
 
 /* Modal-form */
-.modal-form {
-  padding: 72px 24px 24px 24px;
-}
+
 .heder-modal {
   font-weight: 500;
   font-size: 16px;
@@ -317,13 +325,12 @@ img {
 
 .inc-input {
   position: absolute;
-  display: inline-block;
-  top: 0;
-  left: 0;
+
+  top: 4px;
+  left: 16px;
   width: 22px;
   height: 24px;
-  margin-left: 16px;
-  margin-top: 2px;
+
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -351,6 +358,7 @@ img {
 }
 .textarea-form-modal {
   resize: none;
+  display: block;
   width: 360px;
   height: 120px;
   font-size: 12px;
@@ -371,9 +379,13 @@ img {
 }
 .textarea-modal {
   height: 138px;
+  display: block;
 }
 .modal-list {
   margin-bottom: 16px;
+}
+.link-privecy-policy {
+  color: #4d5ae5;
 }
 /* Checbox */
 
@@ -727,12 +739,15 @@ img {
 /* Subsribe */
 .subscribe {
   margin-left: 80px;
+}
+.subscribe-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+
 .input-subsribe-text {
   width: 264px;
   background-color: var(--footer-color);
@@ -754,7 +769,6 @@ img {
 }
 .button-submit {
   display: flex;
-  align-items: center;
   width: 165px;
   height: 40px;
   gap: 16px;
